@@ -1,0 +1,35 @@
+{
+  "source": "NASA Open Science Data Repository (OSDR)",
+  "study": "OSD-323",
+  "api": {
+    "files": "https://osdr.nasa.gov/osdr/data/osd/files/323",
+    "metadata": "https://osdr.nasa.gov/osdr/data/osd/meta/323"
+  },
+  "scope_note": "Dados de resposta celular in vitro; não são diagnóstico, evento clínico ou sinais vitais de astronautas.",
+  "downloads": [
+    {
+      "path": "dados/nasa_osdr/OSD-323/files.json",
+      "url": "https://osdr.nasa.gov/osdr/data/osd/files/323",
+      "bytes": 83349,
+      "sha256": "9a820dc696a3e23576cd94fc0c07f03663f6fbaf41bbecfcc27baccecda00e32"
+    },
+    {
+      "path": "dados/nasa_osdr/OSD-323/metadata.json",
+      "url": "https://osdr.nasa.gov/osdr/data/osd/meta/323",
+      "bytes": 118973,
+      "sha256": "0238300e1a49fa8d8e460e3650e12fc343ec93fdb31f6ff4ae79fcf0afb63d87"
+    },
+    {
+      "path": "dados/nasa_osdr/OSD-323/GLDS-323_rna_seq_Normalized_Counts_GLbulkRNAseq.csv",
+      "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-323/download?source=datamanager&file=GLDS-323_rna_seq_Normalized_Counts_GLbulkRNAseq.csv",
+      "bytes": 2284473,
+      "sha256": "f68839471820e1a7689f15df5d69c7236771b6f1ef28e058cf7491979c8f8b9a"
+    },
+    {
+      "path": "dados/nasa_osdr/OSD-323/GLDS-323_rna_seq_SampleTable_GLbulkRNAseq.csv",
+      "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-323/download?source=datamanager&file=GLDS-323_rna_seq_SampleTable_GLbulkRNAseq.csv",
+      "bytes": 447,
+      "sha256": "c5fc4fbd2dea1f765b5397828d2ba7a5a772bc57854a4ce62825a36a57d19cec"
+    }
+  ]
+}

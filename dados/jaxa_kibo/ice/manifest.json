@@ -1,0 +1,41 @@
+{
+  "source": "JAXA/ISAS DARTS — Kibo Experiment Data Archive",
+  "dataset": "ISS Kibo PM Experiment — Ice Crystal (Ice)",
+  "dataset_page": "https://dev.darts.isas.jaxa.jp/datasets/darts:kibo-pm-crystal-ice",
+  "data_root": "https://data.darts.isas.jaxa.jp/pub/kibo/ice",
+  "selected_archive": "001_ice-01_01.zip",
+  "extracted_file": "1215A.tsv",
+  "downloads": [
+    {
+      "path": "dados/jaxa_kibo/ice/dataset_page.html",
+      "url": "https://dev.darts.isas.jaxa.jp/datasets/darts:kibo-pm-crystal-ice",
+      "bytes": 91971,
+      "sha256": "b5b7c6429f8ecf037615f6fd9ddd998ca9caaa14256af4a97de574c3af19d4b4"
+    },
+    {
+      "path": "dados/jaxa_kibo/ice/dataset_metadata_payload.json",
+      "url": "https://dev.darts.isas.jaxa.jp/datasets/darts:kibo-pm-crystal-ice/_payload.json?51d1703b-4208-4286-a123-0cfa89e0eda8",
+      "bytes": 9598,
+      "sha256": "48335823614a5e3d4d4855ea9d46454ed449f474fda21c8d7ddfd36253f28043"
+    },
+    {
+      "path": "dados/jaxa_kibo/ice/001_ice-01_01.zip",
+      "url": "https://data.darts.isas.jaxa.jp/pub/kibo/ice/telemetry/001_ice-01_01.zip",
+      "bytes": 1147081,
+      "sha256": "7abb9c6ca35b8ad0557949eb29a8c1a95e67b58510173be88e56874e81af10f6"
+    },
+    {
+      "path": "dados/jaxa_kibo/ice/ice_telemetry_list.pdf",
+      "url": "https://data.darts.isas.jaxa.jp/pub/kibo/ice/documents/ice_telemetry_list.pdf",
+      "bytes": 71951,
+      "sha256": "1df7c86d8234d23f326ad56d41902b43e52214c1ed7fe362867839a842229b91"
+    },
+    {
+      "path": "dados/jaxa_kibo/ice/1215A.tsv",
+      "derived_from": "dados/jaxa_kibo/ice/001_ice-01_01.zip",
+      "bytes": 15078951,
+      "sha256": "482d75acdb070b85799772765394e04113bd290b3618b0ce06a340774c48a324"
+    }
+  ],
+  "scope_note": "Telemetria de experimento físico no Kibo (temperatura, posição e tempos do experimento); não são sinais vitais ou dados clínicos da tripulação."
+}

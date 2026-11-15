@@ -1,0 +1,35 @@
+{
+  "source": "NASA Open Science Data Repository (OSDR)",
+  "study": "OSD-13",
+  "api": {
+    "files": "https://osdr.nasa.gov/osdr/data/osd/files/13",
+    "metadata": "https://osdr.nasa.gov/osdr/data/osd/meta/13"
+  },
+  "scope_note": "Dados de resposta celular in vitro; não são diagnóstico, evento clínico ou sinais vitais de astronautas.",
+  "downloads": [
+    {
+      "path": "dados/nasa_osdr/OSD-13/files.json",
+      "url": "https://osdr.nasa.gov/osdr/data/osd/files/13",
+      "bytes": 9025,
+      "sha256": "f7f63a95e5a9ec98a03f853a043a90ac57d2c2c36b0fb8e766e3af987d2760aa"
+    },
+    {
+      "path": "dados/nasa_osdr/OSD-13/metadata.json",
+      "url": "https://osdr.nasa.gov/osdr/data/osd/meta/13",
+      "bytes": 156536,
+      "sha256": "1aeb4803049c9c5e64125f63f7433a693512ce824a0a8732e47dace84580fb1e"
+    },
+    {
+      "path": "dados/nasa_osdr/OSD-13/GLDS-13_array_normalized_expression_probeset_GLmicroarray.csv",
+      "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-13/download?source=datamanager&file=GLDS-13_array_normalized_expression_probeset_GLmicroarray.csv",
+      "bytes": 32023449,
+      "sha256": "b1acce88bf5da9206b6e562b4a25ffa5e2b195bbf613c9f48fb27573de685487"
+    },
+    {
+      "path": "dados/nasa_osdr/OSD-13/GLDS-13_array_SampleTable_GLmicroarray.csv",
+      "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-13/download?source=datamanager&file=GLDS-13_array_SampleTable_GLmicroarray.csv",
+      "bytes": 692,
+      "sha256": "427f03bb822f424c724039c92fa9d73a51e442564723a70d3c012244533878bf"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+build/
+_site/
+runtime/*.db
+runtime/*.db-shm
+runtime/*.db-wal
+.DS_Store
+**/.DS_Store
+__pycache__/
+*.py[cod]
+node_modules/
+*.log
+.env
+.env.*
+!.env.example

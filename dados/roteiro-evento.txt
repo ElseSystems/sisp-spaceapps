@@ -1,0 +1,3 @@
+Simulação de emergência. Tripulante apresentou dor no peito, falta de ar, suor frio, aumento súbito da frequência cardíaca e perda de consciência. A telemetria simulada indica possível parada cardíaca. Verifique resposta e respiração. Acione o protocolo médico da missão, chame a equipe médica, traga o desfibrilador e inicie a resposta de ressuscitação conforme o treinamento e os comandos do equipamento.
+
+Durante esta demonstração, ocorre retorno simulado do pulso. Mantenha suporte e monitoramento e solicite avaliação médica. A recuperação em trinta segundos é parte do roteiro e não representa uma previsão clínica.

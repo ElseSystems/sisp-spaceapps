@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eee9de">
+  <title>SISP | Sistema de Saúde Preventiva</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/sisp.css">
+  <link rel="stylesheet" href="/sisp-layout.css">
+  <link rel="stylesheet" href="/crew.css">
+  <link rel="stylesheet" href="/crew-layout.css">
+  <link rel="stylesheet" href="/dashboard-space.css">
+  <link rel="stylesheet" href="/emergency.css">
+</head>
+<body class="sisp-page">
+  <header class="sisp-header">
+    <a class="sisp-brand" href="/" aria-label="SISP, início"><span class="sisp-logo" aria-hidden="true">◉</span><span><strong>SISP</strong><small>SISTEMA DE SAÚDE PREVENTIVA</small></span></a>
+    <div class="connection-state"><i></i><span>TELEMETRIA SIMULADA</span><strong id="telemetry-clock">--:--:--</strong></div>
+  </header>
+  <main id="crew-screen" class="crew-screen">
+    <section class="crew-hero">
+      <div><p class="sisp-kicker">CENTRAL SISP · OPERAÇÃO ATIVA</p><h1>Tripulação</h1><p>Selecione um tripulante para abrir o monitor de saúde.</p></div>
+      <div class="crew-command-actions"><div class="crew-summary"><span>4/4</span><div><strong>Todos online</strong><small>Sem alertas ativos</small></div></div><button id="simulate-emergency" class="simulate-emergency" type="button"><span>⚠</span> Simular evento crítico</button></div>
+    </section>
+    <section class="crew-grid" aria-label="Astronautas monitorados">
+      <article class="crew-card" data-astronaut-id="tripulante-1" data-astronaut-name="Tripulante 1">
+        <button class="crew-open" type="button" aria-label="Abrir painel do Tripulante 1"><span class="crew-avatar"><span class="crew-initials" hidden>01</span><img src="/assets/crew-1.png" alt="Avatar do Tripulante 1"><i aria-label="Estado estável"></i></span><span class="crew-info"><small>SISP · 01</small><strong>Tripulante 1</strong><span><b></b> Estável</span><span class="crew-mini-telemetry"><span><em data-crew-heart>72</em> bpm</span><span><em data-crew-spo2>98</em>% SpO₂</span></span></span><span class="crew-arrow">↗</span></button>
+        <label class="photo-action">＋ Foto<input class="crew-photo-input" type="file" accept="image/*" aria-label="Adicionar foto do Tripulante 1"></label>
+      </article>
+      <article class="crew-card" data-astronaut-id="tripulante-2" data-astronaut-name="Tripulante 2">
+        <button class="crew-open" type="button" aria-label="Abrir painel do Tripulante 2"><span class="crew-avatar"><span class="crew-initials" hidden>02</span><img src="/assets/crew-2.png" alt="Avatar do Tripulante 2"><i aria-label="Estado estável"></i></span><span class="crew-info"><small>SISP · 02</small><strong>Tripulante 2</strong><span><b></b> Estável</span><span class="crew-mini-telemetry"><span><em data-crew-heart>76</em> bpm</span><span><em data-crew-spo2>97</em>% SpO₂</span></span></span><span class="crew-arrow">↗</span></button>
+        <label class="photo-action">＋ Foto<input class="crew-photo-input" type="file" accept="image/*" aria-label="Adicionar foto do Tripulante 2"></label>
+      </article>
+      <article class="crew-card" data-astronaut-id="tripulante-3" data-astronaut-name="Tripulante 3">
+        <button class="crew-open" type="button" aria-label="Abrir painel do Tripulante 3"><span class="crew-avatar"><span class="crew-initials" hidden>03</span><img src="/assets/crew-3.png" alt="Avatar do Tripulante 3"><i aria-label="Estado estável"></i></span><span class="crew-info"><small>SISP · 03</small><strong>Tripulante 3</strong><span><b></b> Estável</span><span class="crew-mini-telemetry"><span><em data-crew-heart>69</em> bpm</span><span><em data-crew-spo2>99</em>% SpO₂</span></span></span><span class="crew-arrow">↗</span></button>
+        <label class="photo-action">＋ Foto<input class="crew-photo-input" type="file" accept="image/*" aria-label="Adicionar foto do Tripulante 3"></label>
+      </article>
+      <article class="crew-card" data-astronaut-id="tripulante-4" data-astronaut-name="Tripulante 4">
+        <button class="crew-open" type="button" aria-label="Abrir painel do Tripulante 4"><span class="crew-avatar"><span class="crew-initials" hidden>04</span><img src="/assets/crew-4.png" alt="Avatar do Tripulante 4"><i aria-label="Estado estável"></i></span><span class="crew-info"><small>SISP · 04</small><strong>Tripulante 4</strong><span><b></b> Estável</span><span class="crew-mini-telemetry"><span><em data-crew-heart>74</em> bpm</span><span><em data-crew-spo2>98</em>% SpO₂</span></span></span><span class="crew-arrow">↗</span></button>
+        <label class="photo-action">＋ Foto<input class="crew-photo-input" type="file" accept="image/*" aria-label="Adicionar foto do Tripulante 4"></label>
+      </article>
+    </section>
+    <p class="crew-demo-note">Dados simulados · Fotos armazenadas somente neste dispositivo</p>
+  </main>
+  <main id="dashboard-screen" class="sisp-shell" hidden>
+    <section class="astronaut-header">
+      <div><button id="back-to-crew" class="back-to-crew" type="button">← Tripulação</button><p class="sisp-kicker">PAINEL DE MONITORAMENTO</p><label class="astronaut-name-label" for="astronaut-name">Astronauta</label><input id="astronaut-name" class="astronaut-name" value="Ana Martins" maxlength="60" aria-label="Nome do astronauta"><p>Monitoramento preventivo contínuo com dados simulados de sensores biométricos.</p></div>
+      <div class="health-status"><span class="health-orbit">◌</span><div><small>ESTADO GERAL</small><strong id="overall-status">Estável</strong><span id="last-reading">Atualizando sensores…</span></div></div>
+    </section>
+    <section id="emergency-panel" class="emergency-panel" aria-live="assertive" hidden>
+      <header class="emergency-head"><div><p>SIMULAÇÃO DE TREINAMENTO · EVENTO CRÍTICO</p><h2 id="emergency-title">Parada cardíaca detectada</h2></div><div class="emergency-clock"><span id="emergency-phase">ANALISANDO</span><strong id="emergency-timer">00:00</strong></div></header>
+      <div class="emergency-layout">
+        <section class="incident-brief"><div class="critical-pulse" aria-hidden="true">♥</div><div><small>O QUE ACONTECEU</small><h3 id="emergency-summary">Aumento súbito da frequência cardíaca seguido de perda de consciência.</h3><p id="emergency-symptoms">Dor ou pressão no peito, falta de ar, suor frio, náusea e tontura antecederam o colapso simulado.</p></div></section>
+        <section class="guided-response"><div class="response-header"><div><small>BASE PÚBLICA NASA + RCP 2025</small><strong>Resposta coordenada · 30 segundos</strong></div><button id="speak-emergency" type="button">🔊 Ouvir alerta</button></div><div class="event-progress"><i id="emergency-progress"></i></div><ol class="response-steps"><li data-emergency-step="1"><b>1</b><span><strong>Acionar contingência médica</strong> Confirme inconsciência e respiração anormal em até 10 s. Chame o Crew Medical Officer e estabeleça comunicação com o cirurgião de voo quando disponível.</span></li><li data-emergency-step="2"><b>2</b><span><strong>CMO 1 · contenção e RCP</strong> Fixe o paciente em superfície firme ou sistema de contenção médica. Inicie compressões a 100–120/min, mínimo de 5 cm e retorno completo.</span></li><li data-emergency-step="3"><b>3</b><span><strong>CMO 2 · ventilação e desfibrilador</strong> Prepare bolsa-válvula-máscara e desfibrilador. Aplique as pás, siga os comandos e retome RCP imediatamente.</span></li><li data-emergency-step="4"><b>4</b><span><strong>Retorno do pulso e pós-parada</strong> Mantenha suporte, ECG e telemetria contínua. Siga o CHOC/MORD da missão e as orientações médicas em solo.</span></li></ol></section>
+      </div>
+      <section id="prevention-insights" class="prevention-insights" hidden><div><small>PÓS-INCIDENTE · PREVENÇÃO</small><h3>Como reduzir o risco de recorrência</h3></div><ul><li>Revisão médica e cardiológica completa antes do retorno às atividades.</li><li>Investigar causas reversíveis e revisar tendências de pressão, ritmo, SpO₂, sono e estresse.</li><li>Programar alertas precoces para dor torácica, arritmia, dispneia, fadiga e queda de saturação.</li><li>Revisar prontidão do DEA, treinamento de RCP e exercícios periódicos da tripulação.</li></ul></section>
+      <section class="emergency-video"><h3>Vídeo de apoio à resposta</h3><video id="emergency-video" controls muted playsinline preload="metadata" style="display:block;width:100%;max-height:480px;background:#000;border-radius:16px"><source src="/assets/emergency-response.mp4" type="video/mp4">Seu navegador não suporta este vídeo.</video><p>Material fornecido para a demonstração do evento simulado.</p></section>
+      <footer class="emergency-footer"><span>Referência pública: NASA-STD-3001 e treinamento médico da ISS. O procedimento real é específico da missão e dirigido pelo Flight Surgeon.</span><button id="end-emergency" type="button">Encerrar simulação</button></footer>
+    </section>
+    <div class="sisp-main-grid">
+      <section class="human-panel" aria-label="Mapa anatômico interativo">
+        <div class="human-heading"><div><p class="sisp-kicker">MAPA ANATÔMICO INTERATIVO</p></div><label class="model-picker">MODELO<select id="anatomy-model-select" aria-label="Selecionar modelo 3D"><option value="muscular" selected>Muscular</option><option value="skeleton">Esqueleto</option></select></label></div>
+        <div class="anatomy-stage"><div id="body3d-viewport" role="img" aria-label="Modelo humano 3D interativo"><div id="body3d-loading">Carregando modelo 3D…</div><div id="body3d-error" hidden>Não foi possível carregar o modelo 3D.</div></div><div class="anatomy-tools"><button id="body3d-reset" type="button">⤾ Corpo inteiro</button><span>Arraste para girar · role para aproximar</span></div></div>
+        <p id="body3d-caption" class="model-caption">Modelo muscular fornecido para o SISP.</p>
+      </section>
+      <aside class="telemetry-panel" aria-labelledby="telemetry-title">
+        <div class="telemetry-heading"><div><p class="sisp-kicker">SENSORES BIOMÉTRICOS</p><h2 id="telemetry-title">Telemetria ao vivo</h2></div><span class="live-pill"><i></i> SIMULADO</span></div>
+        <div class="vital-cards">
+          <article class="vital-card" data-vital="heartRate"><header><span>FREQUÊNCIA CARDÍACA</span><b class="normal">Normal</b></header><div><strong id="heart-rate">72</strong><small>bpm</small></div><svg viewBox="0 0 160 34" aria-hidden="true"><path id="heart-wave" d="M0 22 L25 22 L30 18 L35 22 L43 22 L48 4 L53 31 L59 22 L72 22 L77 16 L84 22 L160 22"/></svg></article>
+          <article class="vital-card" data-vital="spo2"><header><span>SATURAÇÃO SpO₂</span><b class="normal">Normal</b></header><div><strong id="spo2">98</strong><small>%</small></div><div class="meter"><i id="spo2-meter" style="width:98%"></i></div></article>
+          <article class="vital-card" data-vital="bloodPressure"><header><span>PRESSÃO ARTERIAL</span><b class="normal">Normal</b></header><div><strong id="blood-pressure">118/76</strong><small>mmHg</small></div><p id="bp-note">Dentro da faixa esperada</p></article>
+          <article class="vital-card" data-vital="temperature"><header><span>TEMPERATURA</span><b class="normal">Normal</b></header><div><strong id="temperature">36,6</strong><small>°C</small></div><div class="temperature-track"><i id="temperature-marker"></i></div></article>
+          <article class="vital-card" data-vital="respiration"><header><span>RESPIRAÇÃO</span><b class="normal">Normal</b></header><div><strong id="respiration">15</strong><small>rpm</small></div><svg viewBox="0 0 160 34" aria-hidden="true"><path id="respiration-wave" d="M0 24 C20 24 20 8 40 8 S60 24 80 24 S100 8 120 8 S140 24 160 24"/></svg></article>
+          <article class="vital-card" data-vital="stress"><header><span>ÍNDICE DE ESTRESSE</span><b class="normal">Baixo</b></header><div><strong id="stress">24</strong><small>/ 100</small></div><div class="meter stress-meter"><i id="stress-meter" style="width:24%"></i></div></article>
+        </div>
+        <section class="sensor-summary"><div class="summary-icon">✓</div><div><strong id="sensor-summary-title">Indicadores estáveis</strong><p id="sensor-summary-text">Nenhuma alteração relevante detectada na simulação atual.</p></div></section>
+        <p class="simulation-note">Os valores mudam automaticamente para demonstrar o funcionamento do painel. Este protótipo não realiza diagnóstico.</p>
+      </aside>
+    </div>
+  </main>
+  <script src="/crew.js" defer></script>
+  <script src="/medical.js" defer></script>
+  <script src="/i18n.js?v=2" defer></script>
+  <script type="module" src="/body3d.js"></script>
+  <script src="/telemetry.js" defer></script>
+  <script src="/emergency.js?v=2" defer></script>
+</body>
+</html>

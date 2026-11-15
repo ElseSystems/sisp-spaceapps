@@ -1,0 +1,41 @@
+{
+  "source": "NASA Open Science Data Repository (OSDR)",
+  "study": "OSD-569",
+  "api": {
+    "files": "https://osdr.nasa.gov/osdr/data/osd/files/569",
+    "metadata": "https://osdr.nasa.gov/osdr/data/osd/meta/569"
+  },
+  "selected_file": {
+    "category": "Complete Blood Count",
+    "date_created": 1715762215.553,
+    "date_updated": 1715762215.553,
+    "file_name": "LSDS-7_Complete_Blood_Count_CBC_TRANSFORMED.csv",
+    "file_size": 9317,
+    "organization": "alsda",
+    "remote_url": "/geode-py/ws/studies/OSD-569/download?source=datamanager&file=LSDS-7_Complete_Blood_Count_CBC_TRANSFORMED.csv",
+    "restricted": false,
+    "subcategory": "Tabular Results Files",
+    "subdirectory": "ALSDA Transformed Files",
+    "visible": true
+  },
+  "downloads": [
+    {
+      "path": "dados/nasa_osdr/OSD-569/files.json",
+      "url": "https://osdr.nasa.gov/osdr/data/osd/files/569",
+      "bytes": 4988,
+      "sha256": "5fa72a93326ca73ea76f953d4ac0cdd3ee2623ec9c4343415fde28fe808cbfdc"
+    },
+    {
+      "path": "dados/nasa_osdr/OSD-569/metadata.json",
+      "url": "https://osdr.nasa.gov/osdr/data/osd/meta/569",
+      "bytes": 361799,
+      "sha256": "1386ef12579f21717eeaacf5509732dc9c4d42db0f0c79a2e69562d966fdba31"
+    },
+    {
+      "path": "dados/nasa_osdr/OSD-569/LSDS-7_Complete_Blood_Count_CBC_TRANSFORMED.csv",
+      "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-569/download?source=datamanager&file=LSDS-7_Complete_Blood_Count_CBC_TRANSFORMED.csv",
+      "bytes": 9317,
+      "sha256": "32e4f9c97d3b636b5d5c2e72dab8c4d3319dee64c437508b092dad04603b2b8f"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+﻿Sample Name,central_nuclei_percent,distribution_of_fibers_in_400_myofiber_cross_sectional_area_bin_percent,distribution_of_fibers_in_600_myofiber_cross_sectional_area_bin_percent,distribution_of_fibers_in_800_myofiber_cross_sectional_area_bin_percent,distribution_of_fibers_in_1000_myofiber_cross_sectional_area_bin_percent,distribution_of_fibers_in_1200_myofiber_cross_sectional_area_bin_percent,distribution_of_fibers_in_1400_myofiber_cross_sectional_area_bin_percent,distribution_of_fibers_in_1600_myofiber_cross_sectional_area_bin_percent,distribution_of_fibers_in_1800_myofiber_cross_sectional_area_bin_percent,distribution_of_fibers_in_2000_myofiber_cross_sectional_area_bin_percent,distribution_of_fibers_in_2200_myofiber_cross_sectional_area_bin_percent,distribution_of_fibers_in_2400_myofiber_cross_sectional_area_bin_percent,distribution_of_fibers_in_2600_myofiber_cross_sectional_area_bin_percent,distribution_of_fibers_in_2800_myofiber_cross_sectional_area_bin_percent
+1_Flox_HLS,3.44827586,5,15,30,10,15,10,10,5,0,0,0,0,0
+2_Flox_HLS,4.54545455,0,20,15,10,20,10,15,5,0,0,0,0,5
+3_Flox_HLS,2.48756219,5,15,5,20,5,10,15,5,0,10,10,0,0
+1_KD_HLS,6.83229814,0,0,5,5,20,25,10,10,15,0,5,5,0
+2_KD_HLS,7.10059172,0,5,15,0,0,30,20,10,10,5,0,5,0
+3_KD_HLS,4.04624277,0,15,5,10,15,25,10,15,5,0,0,0,0
+4_KD_HLS,9.09090909,5,15,5,15,20,20,15,0,0,5,0,0,0

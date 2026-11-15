@@ -1,0 +1,29 @@
+{
+  "mission": "Axiom Mission 1 (Ax-1)",
+  "note": "Dosímetros ambientais da ISS no período da missão; não são dosímetros pessoais de um tripulante. A consulta solicitou 09–25 abr 2022; o arquivo contém registros até 17 abr 2022, último registro disponível na resposta.",
+  "source": "NASA OSDR RadLab API",
+  "api_url": "https://visualization.osdr.nasa.gov/radlab/api/?spacecraft=ISS&instrument=DosTel&timestamp%3E=2022-04-09T00%3A00&timestamp%3C=2022-04-25T00%3A00&absorbed_dose_rate=&dose_equivalent_rate=&format=csv",
+  "query": {
+    "spacecraft": "ISS",
+    "instrument": "DosTel",
+    "from_inclusive": "2022-04-09T00:00",
+    "to_exclusive": "2022-04-25T00:00"
+  },
+  "columns": [
+    "timestamp",
+    "instrument_id",
+    "absorbed_dose_rate",
+    "dose_equivalent_rate",
+    "instrument",
+    "spacecraft"
+  ],
+  "records": 15473,
+  "first_timestamp": "2022-04-09T00:00:00",
+  "last_timestamp": "2022-04-17T00:35:00",
+  "file": "iss_dostel_2022-04-09_2022-04-17.csv",
+  "sha256": "b04a871e303fc0dd27a11c80f14416800022da83171bc8af0ef15ae539bfae6b",
+  "units": {
+    "absorbed_dose_rate": "µGy/h",
+    "dose_equivalent_rate": "µSv/h (indisponível nas linhas retornadas)"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "source": "NASA Open Science Data Repository (OSDR)",
+  "study": "OSD-654",
+  "selected_file": {
+    "category": "Bone Biomechanical",
+    "date_created": 1696466173.374,
+    "date_updated": 1696466173.374,
+    "file_name": "LSDS-66_Bone_Biomechanical_DXA_tibia_TRANSFORMED.csv",
+    "file_size": 439,
+    "organization": "alsda",
+    "remote_url": "/geode-py/ws/studies/OSD-654/download?source=datamanager&file=LSDS-66_Bone_Biomechanical_DXA_tibia_TRANSFORMED.csv",
+    "restricted": false,
+    "subcategory": "Tabular Results Files",
+    "subdirectory": "alsda-transformed",
+    "visible": true
+  },
+  "scope_note": "DXA de tíbia e composição corporal de camundongos. Massa magra não equivale a densidade muscular; HLS é um modelo terrestre.",
+  "api": {
+    "files": "https://osdr.nasa.gov/osdr/data/osd/files/654",
+    "metadata": "https://osdr.nasa.gov/osdr/data/osd/meta/654"
+  },
+  "downloads": [
+    {
+      "path": "dados/nasa_osdr/OSD-654/files.json",
+      "url": "https://osdr.nasa.gov/osdr/data/osd/files/654",
+      "bytes": 2200,
+      "sha256": "b32322519767798a61fa9e0fffb6eb38e66077500be0496c54f3b3be13c2a69d"
+    },
+    {
+      "path": "dados/nasa_osdr/OSD-654/metadata.json",
+      "url": "https://osdr.nasa.gov/osdr/data/osd/meta/654",
+      "bytes": 531560,
+      "sha256": "1eb0f647042e1b698a52350780f9b6d9b59a60da2517d1ab934b56c697071d8c"
+    },
+    {
+      "path": "dados/nasa_osdr/OSD-654/LSDS-66_Bone_Biomechanical_DXA_tibia_TRANSFORMED.csv",
+      "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-654/download?source=datamanager&file=LSDS-66_Bone_Biomechanical_DXA_tibia_TRANSFORMED.csv",
+      "bytes": 439,
+      "sha256": "a00d25b9953cd882e6947ab8c15132d48f99ab7cd11802b5f6d9747e85cd0a5b"
+    },
+    {
+      "path": "dados/nasa_osdr/OSD-654/LSDS-66_lean_mass_pre_post.csv",
+      "bytes": 265,
+      "sha256": "67f5e30de3eceadde53ed8a7f67d2d49e984237413af573635a3c68dbaeb18b4",
+      "derived_from": "metadata.json / lean tissue mass precision"
+    }
+  ]
+}
