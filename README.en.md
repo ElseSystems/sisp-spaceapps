@@ -36,4 +36,4 @@ Animal studies OSD-654/662 and cellular experiments OSD-13/323 are not crew medi
 The dashboard uses disk SQLite at `runtime/monitoramento.db`; `make run-demo` runs the earlier RAM/SQLite demonstration.
 
 ## Before publishing
-Check licenses and attribution for each dataset, GLB model, avatar and video. Inclusion in this directory does not establish redistribution rights. The team has not selected a software license yet.
+SISP original code and documentation are available under the [MIT license](LICENSE). Third-party data, dependencies, GLB models, avatars, audio and video remain subject to their respective licenses and attribution requirements; the project MIT license does not change those rights.

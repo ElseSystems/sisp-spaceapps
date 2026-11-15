@@ -36,4 +36,4 @@ Os arquivos animais OSD-654/662 e os experimentos celulares OSD-13/323 não são
 O dashboard usa SQLite em disco em `runtime/monitoramento.db`; `make run-demo` executa a demonstração anterior de RAM/SQLite.
 
 ## Antes de publicar
-Confira as licenças e atribuições de cada dataset, dos modelos GLB, avatares e vídeo. A presença no diretório não concede permissão de redistribuição. Nenhuma licença de software foi escolhida pelo grupo ainda.
+O código original e a documentação do SISP estão disponíveis sob a [licença MIT](LICENSE). Dados, dependências, modelos GLB, avatares, áudio e vídeo de terceiros continuam sujeitos às respectivas licenças e atribuições; a licença MIT do projeto não altera esses direitos.
